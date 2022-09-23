@@ -21,7 +21,7 @@ public class LinkList {
         Node<Integer> head = new Node<Integer>();
         head.date=0;
         System.out.println("head->next = " + head.next);
-
+        System.out.println();
         Node<Integer> node1 = new Node<Integer>();
         node1.date = 1;
         headInsert(head,node1);
